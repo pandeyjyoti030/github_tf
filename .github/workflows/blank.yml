@@ -10,7 +10,7 @@ on:
    
 
 env:
-  BUCKET: jyoti-bucket
+  BUCKET: jyoti-bucket-1
   TFSTATE_FILE: S3.tfstate
   aws_region: ${{ github.event.inputs.region }}
 
