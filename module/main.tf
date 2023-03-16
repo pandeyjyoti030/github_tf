@@ -8,6 +8,6 @@ module "ec2" {
 module "Bucket-mod" {
   source = "../s3"
   bucket_name = var.bucket-name1
-  tag_name = var.tag-name-1
+  # tag_name = var.tag-name-1
   
 }
